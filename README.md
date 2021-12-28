@@ -8,7 +8,7 @@ to convert the code to 5 vanity numbers and save them to a DynamoDB table.
 -numbers are being created in ascending word order,the reason for that is that it is easier to
 type numbers that have letters that are close to each other on the keypad.
 
-- The working amazon connect phone number is +44 800 048 8722.
+- The working amazon connect phone number is +44 800 048 8917.
 
 - Once the caller calls he is directed using the workflow.
 
