@@ -30,18 +30,18 @@ vanity number one  - $.External.vanityNunmOne
 Vanity number two - $.External.vanityNunmTwo
 Vanity Number three  $.External.vanityNumThree
 
-Personal reflection
+Reasons for choosing the solution
+1)convering only 4 digits to a word takes less resources and and the caller on the line for less time.
 
-- I chose a solution becasue 
-1)convering only 4 digits to a word takes less resources and and the caller on the line for less time,
 2)ordering the words in acsending order makes to faster to type.
+
 3)implementing four for loops made the code shorter.
 
-- I initally struggled with the amazon interface , it took me time to realize that in order to get to the contact workflows I need to press the link to the 
-user's personal connect interface.
 
+- I initally struggled with the amazon interface , it took me time to realize that in order to get to the contact workflows I need to press the link to the 
+  user's personal connect interface.
 - I checked locally that my Lambada function works , it created vanity numbers and it saves them to the DynamoDB table.
- - I embeded the Lambada function into the work flow but I currently and have made it return an object key pairs with the phone number and vanity numbers
+- I embeded the Lambada function into the work flow but I currently and have made it return an object key pairs with the phone number and vanity numbers
   I was not able to male the server say out the vanity numbers and I probably need more time to configure it correctly.
 
 
