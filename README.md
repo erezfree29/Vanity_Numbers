@@ -5,7 +5,7 @@
 -The amazon connect store will receive an incoming call from a user and will use the lambada code shown in the file vanity.js
 to convert the code to 5 vanity numbers and save them to a DynamoDB table.
 
--numbers are being created in ascending word order,the reason for that is that it is easier to
+-numbers are being created in ascending word order, the reason for that is that it is easier to
 type numbers that have letters that are close to each other on the keypad.
 
 - The working amazon connect phone number is +44 800 048 8917.
@@ -22,7 +22,7 @@ type numbers that have letters that are close to each other on the keypad.
         vanityNumThree:vanityArray[2],
     }
     
-- the next play prompt in the contact flow  will read out 3 vanity numbers to the caller using the global variables.
+- the next play prompt in the contact flow will read out 3 vanity numbers to the caller using the global variables.
     
     your vanity numbers are
 phone - $.External.phone
@@ -31,18 +31,18 @@ Vanity number two - $.External.vanityNunmTwo
 Vanity Number three  $.External.vanityNumThree
 
 Reasons for choosing the solution
-1)convering only 4 digits to a word takes less resources and and the caller on the line for less time.
+1)converting only 4 digits to a word takes fewer resources and the caller is on the line for less time.
 
-2)ordering the words in acsending order makes to faster to type.
+2)ordering the words in ascending order makes it faster to type.
 
 3)implementing four for loops made the code shorter.
 
 
-- I initally struggled with the amazon interface , it took me time to realize that in order to get to the contact workflows I need to press the link to the 
+- I initially struggled with the amazon interface, it took me time to realize that to get to the contact workflows I need to press the link to the 
   user's personal connect interface.
-- I checked locally that my Lambada function works , it created vanity numbers and it saves them to the DynamoDB table.
-- I embeded the Lambada function into the work flow but I currently and have made it return an object key pairs with the phone number and vanity numbers
-  I was not able to male the server say out the vanity numbers and I probably need more time to configure it correctly.
+- I checked locally that my Lambada function works, it created vanity numbers and it saves them to the DynamoDB table.
+- I embedded the Lambada function into the workflow but I currently and have made it return an object key pair with the phone number and vanity numbers
+  I was not able to male the server says out the vanity numbers and I probably need more time to configure it correctly.
 
 
 ### Testing
