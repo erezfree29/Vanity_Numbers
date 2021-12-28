@@ -42,7 +42,7 @@ Reasons for choosing the solution
   user's personal connect interface.
 - I checked locally that my Lambada function works, it created vanity numbers and it saves them to the DynamoDB table.
 - I embedded the Lambada function into the workflow but I currently and have made it return an object key pair with the phone number and vanity numbers
-  I was not able to male the server says out the vanity numbers and I probably need more time to configure it correctly.
+  I was not able to male the server to say out the vanity numbers and I probably need more time to configure it correctly.
 
 
 ### Testing
