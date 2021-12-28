@@ -47,10 +47,7 @@ user's personal connect interface.
 
 ### Testing
 
-- use of jtest to install please see
-
-[Jtest Installation](https://www.howtoinstall.me/ubuntu/18-04/jstest-gtk/)
-
+- use of jtest
 
 ## Author
 
